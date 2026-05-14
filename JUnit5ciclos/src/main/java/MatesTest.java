@@ -15,20 +15,20 @@ public class MatesTest {
 
      @Test 
      public void testMultiplicar(){
-        int resultado = Mates.multiplicarStatic(a:10, 0)
+        int resultado = Mates.multiplicarStatic(a:10, 0);
 
      }
 
      @Test 
      public void testSumar(){
-        int resultado = Mates.sumarStatic(32, 100)
+        int resultado = Mates.sumarStatic(32, 100);
 
      }
 
      @Test 
      public void testRestar(){
-        Mates contas = new Mates();
-        int resultado = contas.restar(a:10, 4);
+        Mates cuentas = new Mates();
+        int resultado = cuentas.restar(a:10, 4);
         assertEquals(expected:6,resultado);
 
      }
@@ -37,8 +37,8 @@ public class MatesTest {
      @Test 
      public void testRaicesCuadradas(){
         Mates m = new Mates();
-        double resultado = - m.raizCadrada(r:49);
-        assertEquals(expected:7,resultado);
+        double resultado = - m.raizCadrada(r:25);
+        assertEquals(expected:5,resultado);
 
      }
 }
